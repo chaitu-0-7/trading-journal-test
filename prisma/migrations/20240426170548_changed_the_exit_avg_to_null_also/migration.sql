@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Trade" ALTER COLUMN "profitLoss" DROP NOT NULL,
+ALTER COLUMN "entryAvg" DROP NOT NULL;
